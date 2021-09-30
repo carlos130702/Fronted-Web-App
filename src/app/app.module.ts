@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TestComponent } from './test/test.component';
 import { DriverProfileComponent } from './driver-profile/driver-profile.component';
 import { ClientOwnerComponent } from './client-owner/client-owner.component';
 import { InformationOwnerComponent } from './information-owner/information-owner.component';
@@ -18,7 +17,6 @@ import { ReserveDriverComponent } from './reserve-driver/reserve-driver.componen
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent
     DriverProfileComponent,
     ClientOwnerComponent,
     InformationOwnerComponent,
