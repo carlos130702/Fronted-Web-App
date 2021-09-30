@@ -4,9 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-<<<<<<< HEAD
-import { TestComponent } from './test/test.component';
-=======
 import { DriverProfileComponent } from './driver-profile/driver-profile.component';
 import { ClientOwnerComponent } from './client-owner/client-owner.component';
 import { InformationOwnerComponent } from './information-owner/information-owner.component';
@@ -16,14 +13,10 @@ import { RegisterDriverComponent } from './register-driver/register-driver.compo
 import { RegisterOwnerComponent } from './register-owner/register-owner.component';
 import { ReservationDriverComponent } from './reservation-driver/reservation-driver.component';
 import { ReserveDriverComponent } from './reserve-driver/reserve-driver.component';
->>>>>>> master
 
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
-    TestComponent
-=======
     DriverProfileComponent,
     ClientOwnerComponent,
     InformationOwnerComponent,
@@ -33,7 +26,6 @@ import { ReserveDriverComponent } from './reserve-driver/reserve-driver.componen
     RegisterOwnerComponent,
     ReservationDriverComponent,
     ReserveDriverComponent
->>>>>>> master
   ],
   imports: [
     BrowserModule,
