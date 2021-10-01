@@ -1,0 +1,54 @@
+
+.form-container{
+    width: 60%;
+    margin: auto;
+    color: white;
+    background-color:#023047;
+}
+
+.container{
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.register-container{
+    background-color: #023047;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.form-radio-button{
+    margin: 5px;
+}
+
+.form{
+    background-color:white;
+    width: 30%;
+}
+
+
+
+.btn_primary{
+    background-color: #FFB703;
+    font-size: large;
+    color: #636363;
+}
+
+.btn_secondary{
+    background-color: #023047;
+    font-size: large;
+    color:white;
+}
+
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+
