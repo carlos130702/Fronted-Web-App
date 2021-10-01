@@ -14,14 +14,13 @@ import { RegisterOwnerComponent } from './register-owner/register-owner.componen
 import { ReservationDriverComponent } from './reservation-driver/reservation-driver.component';
 import { ReserveDriverComponent } from './reserve-driver/reserve-driver.component';
 
-import { FormsModule,ReactiveFormsModule} from "@angular/forms";
-import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from "@angular/material/card";
 import { MatInputModule } from "@angular/material/input";
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatIconModule } from "@angular/material/icon";
 import { MatGridListModule } from "@angular/material/grid-list";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,9 +38,6 @@ import { MatGridListModule } from "@angular/material/grid-list";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatRadioModule,
     MatCardModule,
     MatInputModule,
     MatButtonModule,
