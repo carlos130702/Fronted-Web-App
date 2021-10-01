@@ -51,4 +51,19 @@
     flex: 1 1 auto;
 }
 
+.column {
+    float: left;
+    width: 50%;
+    background-color: #023047;
+}
+  
+.row:after {
+    background-color: #023047;
+    content: "";
+    display: table;
+    clear: both;
+}
 
+body{
+    background-color: #023047;
+}
