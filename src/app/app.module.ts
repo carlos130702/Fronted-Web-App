@@ -13,7 +13,6 @@ import { RegisterDriverComponent } from './register-driver/register-driver.compo
 import { RegisterOwnerComponent } from './register-owner/register-owner.component';
 import { ReservationDriverComponent } from './reservation-driver/reservation-driver.component';
 import { ReserveDriverComponent } from './reserve-driver/reserve-driver.component';
-
 @NgModule({
   declarations: [
     AppComponent,
