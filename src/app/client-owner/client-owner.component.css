@@ -10,3 +10,30 @@ div#table-3 {
     position:absolute;
     right: 500px;
 }
+
+div#table-4 {
+background-color:#023047;
+color:floralwhite;
+position: absolute;
+left: 400px;
+margin:100px;
+border:30px solid #023047;
+}
+
+div#table-5 {
+background-color:#023047;
+color:floralwhite;
+position: absolute;
+right: 400px;
+margin:100px;
+border:30px solid #023047;
+}
+
+div#table-6 {
+background-color:#023047;
+color:floralwhite;
+position: absolute;
+right: 210px;
+margin:300px;
+border:30px solid #023047;
+}
