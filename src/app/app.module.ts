@@ -14,6 +14,15 @@ import { RegisterOwnerComponent } from './register-owner/register-owner.componen
 import { ReservationDriverComponent } from './reservation-driver/reservation-driver.component';
 import { ReserveDriverComponent } from './reserve-driver/reserve-driver.component';
 
+import { FormsModule,ReactiveFormsModule} from "@angular/forms";
+import { MatCardModule } from "@angular/material/card";
+import { MatInputModule } from "@angular/material/input";
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatIconModule } from "@angular/material/icon";
+import { MatGridListModule } from "@angular/material/grid-list";
+import { MatListModule } from "@angular/material/list";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +39,16 @@ import { ReserveDriverComponent } from './reserve-driver/reserve-driver.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatCardModule,
+    MatInputModule,
+    MatButtonModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatGridListModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

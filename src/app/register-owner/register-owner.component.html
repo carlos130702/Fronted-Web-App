@@ -1,1 +1,109 @@
-<p>register-owner works!</p>
+<body>
+
+
+    <div class="row">
+      <div class="column">
+        <img src="../../assets/carBg.png" style="width: 100%;">
+      </div>
+    
+      <div class="column">
+        <img src="../../assets/registerBanner.png" style="width: 50%; padding-left: 25%;">
+        <mat-card class="header" class="register-container">
+    
+          <!--SIGN IN FORMS-->
+          <form [formGroup]="registerForm" (submit)="submitForm()" >
+            <mat-card-content class="container">
+              <mat-grid-list cols="2" rowHeight="13:2">
+    
+                <!--NAME-->
+                <mat-grid-tile colspan="2" >
+                  <mat-form-field appearance="fill" class="form"  >
+                    <input type="text" matInput formControlName="ownerName"  placeholder="Name"/>
+                    <mat-error *ngIf="ownerName?.errors?.required">
+                      Name is REQUIRED
+                    </mat-error>
+                  </mat-form-field>
+                </mat-grid-tile>
+    
+                <!--LASTNAME-->
+                <mat-grid-tile colspan="2">
+                  <mat-form-field appearance="fill" class="form">
+                    <input type="text" matInput formControlName="ownerLastName" placeholder="Last name"/>
+                    <mat-error *ngIf="ownerLastName?.errors?.required">
+                      Lastname is REQUIRED
+                    </mat-error>
+                  </mat-form-field>
+                </mat-grid-tile>
+    
+                <!--EMAIL-->
+                <mat-grid-tile colspan="2">
+                  <mat-form-field appearance="fill" class="form">
+                    <input type="text" matInput formControlName="ownerEmail" placeholder="Email"/>
+                    <mat-error *ngIf="ownerEmail?.errors?.required">
+                      Email is REQUIRED
+                    </mat-error>
+                  </mat-form-field>
+                </mat-grid-tile>
+    
+                <!--PHONE-->
+                <mat-grid-tile colspan="2">
+                  <mat-form-field appearance="fill" class="form">
+                    <input type="text" matInput formControlName="ownerPhone" placeholder="Phone number"/>
+                    <mat-error *ngIf="ownerPhone?.errors?.required">
+                      Email is REQUIRED
+                    </mat-error>
+                    <mat-error *ngIf="ownerPhone?.errors?.pattern && !ownerPhone?.errors?.required">
+                      Phone must have only <strong>numbers</strong>
+                    </mat-error>
+                  </mat-form-field>
+                </mat-grid-tile>
+    
+                <!--PASSWORD-->
+                <mat-grid-tile colspan="2">
+                  <mat-form-field appearance="fill" class="form">
+                    <input type="text" matInput formControlName="password" placeholder="Password"/>
+                    <mat-error *ngIf="password?.errors?.required">
+                      Password is REQUIRED
+                    </mat-error>
+                  </mat-form-field>
+                </mat-grid-tile>
+                
+    
+                <mat-grid-tile colspan="2">
+                  <mat-form-field appearance="fill" class="form">
+                    <input type="text" matInput formControlName="password" placeholder="Repeat password"/>
+                    <mat-error *ngIf="password?.errors?.required">
+                      Name is REQUIRED
+                    </mat-error>
+                  </mat-form-field>
+                </mat-grid-tile>
+                
+              
+              
+              
+              </mat-grid-list>
+    
+              
+    
+    
+              <mat-grid-list cols="1" rowHeight="20:1">
+                <mat-grid-tile>
+                  <button class="btn_primary" mat-raised-button>Sign in!</button>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                  <button class="btn_secondary" mat-raised-button>Back</button>
+                </mat-grid-tile>
+    
+              </mat-grid-list>
+              
+              
+              
+    
+            </mat-card-content>
+          </form>
+          
+    
+        </mat-card>
+      </div>
+    </div>
+    </body>

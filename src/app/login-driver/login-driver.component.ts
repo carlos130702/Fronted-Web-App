@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators} from "@angular/forms"; "@angular/forms";
+
 
 @Component({
   selector: 'app-login-driver',
@@ -7,9 +9,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginDriverComponent implements OnInit {
 
-  constructor() { }
+  submitted: boolean=false;
+
+  loginForm: FormGroup = this.formBuilder.group({
+    ownerEmail: ['',{validators: [Validators.required, Validators.email], updateOn: 'change'}],
+    password: ['', {validators: [Validators.required, Validators.minLength(5)], updatedOn:'change'}],
+  });
+
+
+  constructor( private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-  }
+ 
+  }  
+  
+  get driverEmail(){ return this.loginForm.get('driverEmail');}
+  get password(){ return this.loginForm.get('password');}
 
+
+
+  submitForm(){
+    console.log(this.loginForm.valid);
+    this.submitted = true;
+  }
 }
