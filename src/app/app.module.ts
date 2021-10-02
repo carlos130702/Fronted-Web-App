@@ -13,6 +13,7 @@ import { RegisterDriverComponent } from './register-driver/register-driver.compo
 import { RegisterOwnerComponent } from './register-owner/register-owner.component';
 import { ReservationDriverComponent } from './reservation-driver/reservation-driver.component';
 import { ReserveDriverComponent } from './reserve-driver/reserve-driver.component';
+import { ProfileOwnerComponent } from './profile-owner/profile-owner.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ReserveDriverComponent } from './reserve-driver/reserve-driver.componen
     RegisterDriverComponent,
     RegisterOwnerComponent,
     ReservationDriverComponent,
-    ReserveDriverComponent
+    ReserveDriverComponent,
+    ProfileOwnerComponent
   ],
   imports: [
     BrowserModule,
