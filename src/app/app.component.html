@@ -1,1 +1,19 @@
-<app-login-driver></app-login-driver>
+<mat-sidenav-container>
+    <mat-sidenav mode="side" opened>
+      <a mat-button [routerLink]="'/driver-profile'">Perfil</a>
+      <a mat-button [routerLink]="'/reserve-driver'">Buscar estacionamientos</a>
+      <a mat-button [routerLink]="'/reservation-driver'">Ultimas reservas</a>
+      <a mat-button [routerLink]="'/mensajes'">Mensajes</a>
+      <a mat-button [routerLink]="'/information-owner'">Parking information</a>
+      <a mat-button [routerLink]="'/login-driver'">login driver</a>
+      <a mat-button [routerLink]="'/login-owner'">login owner</a>
+      <a mat-button [routerLink]="'/register-owner'">register-owner</a>
+      <a mat-button [routerLink]="'/register-driver'">register-driver</a>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div class="content">
+        <router-outlet></router-outlet>
+  
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>

@@ -1,3 +1,5 @@
+import {DriverService} from '../driver-profile/driver.service'
+import {Driver} from '../driver-profile/driver';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,11 +7,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './driver-profile.component.html',
   styleUrls: ['./driver-profile.component.css']
 })
-export class DriverProfileComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class DriverProfileComponent   {
 
 }
