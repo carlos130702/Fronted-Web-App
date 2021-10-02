@@ -1,0 +1,12 @@
+.table-1 {
+    width: 304px;
+    margin: 80px auto;
+}
+div#table-2 {
+    position: absolute;
+    left: 500px;
+}
+div#table-3 {
+    position:absolute;
+    right: 500px;
+}
