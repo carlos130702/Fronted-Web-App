@@ -1,0 +1,107 @@
+
+.form-container{
+    width: 60%;
+    margin: auto;
+    color: black;
+    background-color:#023047;
+}
+
+.container{
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.register-container{
+    background-color: #023047;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.form-radio-button{
+    margin: 5px;
+}
+
+.form{
+    background-color:white;
+    width: 30%;
+}
+
+
+
+.btn_primary{
+    background-color: #FFB703;
+    font-size: large;
+    color: #636363;
+}
+
+.btn_secondary{
+    background-color: #023047;
+    font-size: large;
+    color:white;
+}
+
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    background-color: #023047;
+}
+  
+.row:after {
+    background-color: #023047;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    background-color: #023047;
+}
+
+.btn_forgotPassword{
+    background-color: #023047;
+    color:white;
+}
+
+.mat-input-element {
+    color: white;
+        
+}
+
+.mat-form-field{
+    background-color: #0a4563;
+    color: #FFB703;
+}
+
+
+.mat-form-field-label {
+    color: white;
+}
+
+.mat-form-field-underline {
+    background-color: #FFB703;
+    color: #FFB703;
+}
+
+.mat-form-field-ripple {
+    background-color: #FFB703;
+    color: #FFB703;
+}
+.mat-form-field-required-marker {
+    color: slategray;
+
+}
+
+.mat-input-element::placeholder{
+    color: rgba(255, 255, 255,0.3);
+ }
