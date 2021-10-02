@@ -2,10 +2,41 @@
     width: 304px;
     margin: 80px auto;
 }
-.table-2 {
-    width: 304px;
-    right:400px;
+div#table-2 {
+    position: absolute;
+    left: 500px;
 }
-.table-3 {
-    width: 304px;
+div#table-3 {
+    position:absolute;
+    right: 500px;
+}
+
+div#table-4 {
+background-color:#023047;
+color:floralwhite;
+position: absolute;
+left: 400px;
+margin:100px;
+border:30px solid #023047;
+}
+
+div#table-5 {
+background-color:#023047;
+color:floralwhite;
+position: absolute;
+right: 350px;
+margin:100px;
+border:30px solid #023047;
+}
+
+.btn_pro{
+    background-color: #FFB703;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.btn_cal{
+    background-color: #FFB703;
+    margin-top: 20px;
+    margin-left: 25%;
 }
