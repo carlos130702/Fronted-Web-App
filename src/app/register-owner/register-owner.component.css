@@ -2,7 +2,7 @@
 .form-container{
     width: 60%;
     margin: auto;
-    color: white;
+    color: black;
     background-color:#023047;
 }
 
@@ -67,3 +67,41 @@
 body{
     background-color: #023047;
 }
+
+.btn_forgotPassword{
+    background-color: #023047;
+    color:white;
+}
+
+.mat-input-element {
+    color: white;
+        
+}
+
+.mat-form-field{
+    background-color: #0a4563;
+    color: #FFB703;
+}
+
+
+.mat-form-field-label {
+    color: white;
+}
+
+.mat-form-field-underline {
+    background-color: #FFB703;
+    color: #FFB703;
+}
+
+.mat-form-field-ripple {
+    background-color: #FFB703;
+    color: #FFB703;
+}
+.mat-form-field-required-marker {
+    color: slategray;
+
+}
+
+.mat-input-element::placeholder{
+    color: rgba(255, 255, 255,0.3);
+ }
