@@ -1,0 +1,74 @@
+{
+    "driver":[
+        {
+            "id": 1,
+            "name": "jhon",
+            "lastName": "Doe",
+            "telephone": 55543445,
+            "email": "jhon.doe@email.com",
+            "password": 123456,
+            "photoUrl": "link"
+        },
+        {
+            "id": 2,
+            "name": "Carlos",
+            "lastName": "Zavala",
+            "telephone": 5566771,
+            "email": "CarlosZ91@email.com",
+            "password": 123456,
+            "photoUrl": "link"
+        },
+        {
+            "id": 3,
+            "name": "Rosa",
+            "lastName": "Sanches",
+            "telephone": 99944555,
+            "email": "Rosa.S@email.com",
+            "password": 123456,
+            "photoUrl": "link"
+        }   
+    ],
+
+    "owner":[
+        {
+            "id": 1,
+            "name": "Juan",
+            "lastName": "Lopez",
+            "telephone": 6664488,
+            "email": "juan.lopez@email.com",
+            "photoUrl": "link"
+        },
+        {
+            "id": 2,
+            "name": "Jose",
+            "lastName": "Cabrera",
+            "telephone": 6662214,
+            "email": "Cabjose@email.com",
+            "photoUrl": "link"
+        }
+    ],
+
+    "parking":[
+        {
+            "id": 1,
+            "name": "Estacionamiento XYZ",
+            "ownerId": 1,
+            "location": "Av. Las tunas 4455, San Miguel",
+            "description": "cuidamos bien tu coche, estamos al lado del parque",
+            "feePerHour": 5,
+            "photoUrl": "link",
+            "capacity": 3
+        },
+        {
+            "id": 2,
+            "name": "El parque",
+            "ownerId": 2,
+            "location": "Av las piedras 4455",
+            "description": "Seguro y confiable!",
+            "feePerHour": 7,
+            "photoUrl": "link",
+            "capacity": 10
+        }
+    ]
+
+}
